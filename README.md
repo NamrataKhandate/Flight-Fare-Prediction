@@ -12,7 +12,7 @@ Flight Fare prediction using machine learning. In this project, we will be analy
 # Abstract:
 Passengers are attempting to grasp how these airline businesses make judgments regarding flight ticket costs over time, since demand for air travel in India is growing more popular with multiple flight tickets purchasing on the internet. There are a variety of strategies that allow you to perform things at the right moment. Customers want the cheapest ticket possible, but airlines want to maximize their profit by keeping their entire income as high as feasible. To increase revenue, airlines use a number of computational tactics, including as demand forecasting and pricing discrimination. This is for the consumer who buys a flight ticket by estimating the amount of the flight fare. The major difficulty from the customer’s perspective, finding the perfect value or the ideal time to purchase tickets is the most difficult component. The bulk of the techniques rely on advanced computational intelligence, prediction models, and a branch of science called Machine Learning (ML). This research emphasizes the factors and provides instructions for developing a machine learning-based aircraft fare prediction model.
 
-# Evaluate dataset into multiple steps:
+##  Evaluate dataset into multiple steps:
 1. Data Collection
 2. Loading data
 3. Domain Analysis
@@ -24,10 +24,10 @@ Passengers are attempting to grasp how these airline businesses make judgments r
 9. Hyperparameter Tuning
 10. Training & Model Evaluation
 
-# Loading Dataset:
+## Loading Dataset:
 load data in python using panda’s library
 
-# Attribute Information :
+## Attribute Information :
 1. Airline: So this column will have all the types of airlines like Indigo, Jet Airways,
 Air India, and many more.
 2. Date_of_Journey: This column will let us know about the date on which the
@@ -49,14 +49,14 @@ and other amenities.
 10. Price: Price of the flight for a complete journey including all the expenses
 before onboarding.
 
-# Model Creation & Evaluation
+## Model Creation & Evaluation
 - Define Independent and dependant variable and split the data into training and testing.
 -  For Training 80% & Testing 20% data
 - Check data is balanced or not after check the data has imbalanced so I utilized the SMOTE technique to balance the data.
 - Use regression algorithms including Linear Regression, Random Forest,XGBoost and Hyperparameter Tuning. 
 -  Afterward, evaluate the models using accuracy and regression metrics.
 
-# Best Model
+## Best Model
 - Our best performed model with accuracy (0.84) metric is XG Boost. This regression could achieve accuracy rate 0.84 that is average accuracy.
 
 # Conclusion
