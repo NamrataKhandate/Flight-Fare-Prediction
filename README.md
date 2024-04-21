@@ -60,4 +60,5 @@ before onboarding.
 - Our best performed model with accuracy (0.84) metric is XG Boost. This regression could achieve accuracy rate 0.84 that is average accuracy.
 
 # Conclusion
-- In a project focused on improving sales by identifying high-quality leads, various machine learning models were tested using a dataset. The goal was to find the most effective model based on different performance measures like Accuracy, MSE, MAE, RMSE, R2 Score. • After evaluating these models, it was determined that the XG Boosting outperformed the others by achieving the highest accuracy score. This suggests that, compared to the other models tested, XG Boosting was most successful in accurately predicting lead quality, making it the top performer for this particular task.
+- In a project focused on improving sales by identifying high-quality leads, various machine learning models were tested using a dataset. The goal was to find the most effective model based on different performance measures like Accuracy, MSE, MAE, RMSE, R2 Score.
+-  After evaluating these models, it was determined that the XG Boosting outperformed the others by achieving the highest accuracy score. This suggests that, compared to the other models tested, XG Boosting was most successful in accurately predicting lead quality, making it the top performer for this particular task.
